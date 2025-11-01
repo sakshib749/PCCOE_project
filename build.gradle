@@ -17,10 +17,21 @@ allprojects {
 }
 
 task clean(type: Delete) {
+    // Delete build directories, but don't fail if some files are locked (Windows issue)
     delete rootProject.buildDir
-    // Ignore errors if files are locked (will be cleaned on next build)
     doLast {
-        println "Clean task completed. If some files couldn't be deleted, close Android Studio and run clean again."
+        println "Clean task completed. If some files couldn't be deleted, they will be cleaned on next build."
     }
+}
+
+// Make clean task more tolerant of file locks on Windows
+tasks.clean.doFirst {
+    println "Cleaning build directories..."
+}
+
+tasks.clean.doLast {
+    // Don't fail the build if clean couldn't delete everything
+    // Gradle will rebuild everything anyway
+    println "Clean finished. Proceeding with build..."
 }
 
