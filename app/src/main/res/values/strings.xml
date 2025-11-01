@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Home Control</string>
+    <string name="room_name">Living Room</string>
+    <string name="temperature_label">Temperature</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="updated_time">Updated: 2:30 PM</string>
+    <string name="heat_button">Heat to 50°</string>
+    <string name="cool_button">Cool to 90°</string>
+    <string name="hold_15min">Hold 15 min</string>
+    <string name="hold_1hr">Hold 1 hr</string>
+    <string name="hold_4hrs">Hold 4 hrs</string>
+    <string name="hold_8hrs">Hold 8 hrs</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="set_temperature_title">Set Temperature</string>
+    <string name="current_temperature">Current: 72°F</string>
+    <string name="target_temperature">Target Temperature</string>
+    <string name="temperature_saved">Temperature saved!</string>
+    <string name="system_mode_title">Edit System Mode</string>
+    <string name="select_mode">Select a mode:</string>
+    <string name="auto_mode">Auto</string>
+    <string name="cool_mode">Cool</string>
+    <string name="heat_mode">Heat</string>
+    <string name="off_mode">Off</string>
+    <string name="mode_saved">System mode saved!</string>
+    <string name="home_nav">Home</string>
+    <string name="system_nav">System</string>
+    <string name="fan_nav">Fan</string>
+    <string name="priority_nav">Priority</string>
+</resources>
+

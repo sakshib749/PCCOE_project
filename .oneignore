@@ -1,0 +1,13 @@
+# OneDrive ignore file - prevents OneDrive from syncing build folders
+# Add this to prevent OneDrive sync conflicts with Android build files
+
+app/build/
+build/
+.gradle/
+*.apk
+*.aab
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
